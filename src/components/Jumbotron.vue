@@ -11,10 +11,11 @@
                     <h5 class="modal-title" id="exampleModalLabel">Download CV</h5>
                 </div>
                 <div class="modal-body">
-                    <!-- <div id="pdfObject"></div> -->
+                    <img src="./../../public/pdf.jpg" alt="">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                    <a href="https://drive.google.com/file/d/1P9-L35_RHWFkXGcgaBhIVjo9TW-GwNJy/view?usp=sharing" target="_blank" class="btn btn-primary">Download Full PDF</a>
                 </div>
                 </div>
             </div>
