@@ -1,0 +1,123 @@
+/*!
+ * Bootstrap v4.5.3 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+
+#pdfObject {
+  height: 42vh;
+}
+
+.list {
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 14px;
+  list-style: none;
+  color: $primary;
+  width: 100% !important;
+}
+span {
+  font-weight: 400;
+  float: right;
+}
+
+.img-skill {
+  filter: grayscale(100%);
+
+  &:hover {
+    filter: none;
+  }
+}
+
+.testimonial-inner {
+  .title-experience {
+    font-size: 18px;
+    font-weight: 600;
+    color: $primary;
+  }
+
+  .testimonial-header {
+    background-color: #fff;
+    box-shadow: 11px 10px 16px -2px rgba(0, 0, 0, 0.29);
+    -webkit-box-shadow: 11px 10px 16px -2px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 11px 10px 16px -2px rgba(0, 0, 0, 0.29);
+    border-radius: 15px;
+
+    .title-experience-work {
+      font-size: 18;
+      font-weight: 600;
+      color: $pink;
+    }
+  }
+
+  .testimonial-link {
+    p {
+      font-size: 16;
+      font-weight: 500;
+      color: $pink;
+    }
+  }
+}
+
+.expert {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  .my-locations {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.section-title-expert {
+  font-size: 18px;
+  font-weight: 600;
+  color: $pink;
+}
+
+.text-alamat{
+    font-size: 12px;
+    font-weight: 300;
+}
