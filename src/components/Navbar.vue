@@ -59,15 +59,30 @@
     </div>
 
     <div class="container">
-      <div class="site-header-inner">
-        <div class="brand header-brand">
-          <h1 class="m-0">
-            <a href="/">
-              <img src="./../assets/Logo.png" width="55" />
-            </a>
-          </h1>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/"
+            ><img src="./../assets/Logo.png" width="55"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <router-link class="nav-link" to="/">Home</router-link>
+              <router-link class="nav-link" to="/artikel">Artikel</router-link>
+            </div>
+          </div>
         </div>
-      </div>
+      </nav>
     </div>
   </header>
 </template>

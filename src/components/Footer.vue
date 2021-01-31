@@ -25,10 +25,10 @@
         <ul class="footer-social-links list-reset">
           <li  >
             <a :href="kontak.url" target="_blank" >
+              <i class="fab fa-github" v-if="kontak.name === 'Github'"></i>
               <i class="fab fa-whatsapp" v-if="kontak.name === 'WhatsApp'"></i>
               <i class="fab fa-instagram" v-if="kontak.name === 'Instagram'"></i>
               <i class="fab fa-telegram-plane" v-if="kontak.name === 'Telegram'"></i>
-              <i class="fab fa-google" v-if="kontak.name === 'Gmail'"></i>
             </a>
           </li>
         </ul>

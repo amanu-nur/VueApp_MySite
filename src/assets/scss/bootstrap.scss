@@ -121,3 +121,32 @@ span {
     font-size: 12px;
     font-weight: 300;
 }
+
+.nav-link{
+  color: $primary !important;
+
+  &:hover{
+    border-bottom: 1px solid rgb(73, 80, 246);
+  }
+}
+
+.artikel-page-list{
+  justify-content: center;
+  align-items: center;
+
+  .author-text{
+    margin-top: -20px;
+    font-size: 16px;
+    color: $primary;
+  }
+
+  .rilis-text{
+    margin-top: -15px;
+    font-size: 16px;
+    color: #acacac;
+  }
+}
+
+.content-text{
+  text-align: justify;
+}
